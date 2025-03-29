@@ -1,6 +1,6 @@
 # 💞 AffinityApp
 
-**AffinityApp** is a modern fullstack relationship platform built with **.NET 8 (Web API)** and **Angular 17**, designed as a study project to learn and apply real-world development techniques using clean architecture principles and a modular structure.
+**AffinityApp** is a modern fullstack relationship platform built with **.NET 8 (Web API)** and **Angular 17**, designed as a study project to learn and apply real-world development techniques using microservices-friendly patterns, clean architecture, and modern frontend tools.
 
 This project is part of my journey to master fullstack development and demonstrate practical skills in API design, authentication, state management, and responsive UI/UX.
 
@@ -8,36 +8,21 @@ This project is part of my journey to master fullstack development and demonstra
 
 ## 🔧 Tech Stack
 
-### Back-end
+### Back-end (API)
 - ASP.NET Core 8
 - Entity Framework Core
+- SQLite / SQL Server
 - AutoMapper
 - JWT Authentication
-- Clean Architecture (Domain, Application, Infrastructure)
 - CORS, Middleware, Error Handling
-- SQLite / SQL Server
 
-### Front-end
+### Front-end (Client)
 - Angular 17
 - RxJS & Observables
 - Reactive Forms
 - Angular Routing and Guards
 - Bootstrap 5
 - HTTP Interceptors
-
----
-
-## 📁 Solution Structure
-
-```
-AffinityApp.sln
-
-├── AffinityApp.API             // ASP.NET Core Web API (presentation layer)
-├── AffinityApp.Client          // Angular frontend application
-├── AffinityApp.Application     // Business logic and use cases
-├── AffinityApp.Domain          // Core domain models and rules
-├── AffinityApp.Infrastructure  // Data access and external service implementations
-```
 
 ---
 
